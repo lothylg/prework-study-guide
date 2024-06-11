@@ -7,12 +7,59 @@
     <title>Prework Study Guide</title>
   </head>
   <body>
-    <header id="header">
+    <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
     </header>
     <main>
       <!-- Student code goes here -->
+      <section class="card" id="html-section">
+        <h2>HTML</h2>
+        <ul>
+          <li>header is the container for stuff not visible to user</li>
+          <li>meta is the code that tells the browser what to display</li>
+          <li>meta is also not visible to user becuase it's within the header container</li>
+        </ul>
+      </section>
+   
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+        <ul>
+          <li>Enter your CSS notes here</li>
+        </ul>
+      </section>
+   
+      <section class="card" id="git-section">
+        <h2>Git</h2>
+        <ul>
+          <li>I had so much trouble keeping the ssh keys on my computer</li>
+          <li>so far i've had to re establish my ssh keys 4 times</li>
+          <li>hopefully these notes help for next time</li>
+          <li>ssh -t git@github.com</li>
+          <li>Lothys-MacBook-Air:~ lothygresser$ open ~/.ssh/config
+            Lothys-MacBook-Air:~ lothygresser$ ssh -T git@github.com
+            no such identity: /Users/lothygresser/.SSH/id_ed22519: No such file or directory
+            git@github.com: Permission denied (publickey).
+            Lothys-MacBook-Air:~ lothygresser$ eval "$(ssh-agent -s)"
+            Agent pid 50472
+            Lothys-MacBook-Air:~ lothygresser$ ssh-add --apple-use-keychain ~/.ssh/id_25519
+            /Users/lothygresser/.ssh/id_25519: No such file or directory
+            Lothys-MacBook-Air:~ lothygresser$ touch ~/.ssh/config
+            Lothys-MacBook-Air:~ lothygresser$ open ~/.ssh/config
+            Lothys-MacBook-Air:~ lothygresser$ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+            Identity added: /Users/lothygresser/.ssh/id_ed25519 (lothygresser@gmail.com)
+            Lothys-MacBook-Air:~ lothygresser$ pbcopy < ~/.ssh/id_ed25519.pub
+            Lothys-MacBook-Air:~ lothygresser$ ssh -T git@github.com
+            Hi lothylg! You've successfully authenticated, but GitHub does not provide shell access.</li>
+        </ul>
+      </section>
+   
+      <section class="card" id="javascript-section">
+        <h2>JavaScript</h2>
+        <ul>
+          <li>Enter your JavaScript notes here</li>
+        </ul>
+      </section>
     </main>
 
     <footer>
